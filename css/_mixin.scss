@@ -1,0 +1,32 @@
+@mixin create-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    margin-bottom: 5px;
+}
+
+@mixin create-text {
+    color: $grey;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    margin-bottom: 24px;
+}
+
+@mixin create-input {
+    width: 100%;
+    padding: 18px 12px 17px 12px;
+    border: 1px solid $grey-grey;
+    border-radius: 4px;
+    color: $grey;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+}
+
+@mixin form-wrap {
+    padding-top: 32px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid $grey-grey;
+}
