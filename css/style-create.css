@@ -167,10 +167,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-.create__container .create__wrap .form .count_wrap {
+.create__container .create__wrap .form .count-wrap {
   position: relative;
 }
-.create__container .create__wrap .form .count_wrap .count {
+.create__container .create__wrap .form .count-wrap .count {
   position: absolute;
   top: 18px;
   right: 12px;
@@ -179,12 +179,12 @@ body {
   line-height: 19px;
   letter-spacing: 0.15px;
 }
-.create__container .create__wrap .form .count_wrap .more {
+.create__container .create__wrap .form .count-wrap .more {
   position: absolute;
   top: 16px;
   left: 12px;
 }
-.create__container .create__wrap .form .count_wrap .input-more {
+.create__container .create__wrap .form .count-wrap .input-more {
   padding-left: 45px;
 }
 .create__container .create__wrap .form__kit {
