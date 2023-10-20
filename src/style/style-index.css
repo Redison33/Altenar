@@ -94,7 +94,7 @@ p, h1, h2, h3, h4 {
 .header__container .header__main .header__link:hover {
   background-color: #0B79D0;
 }
-.header__container .header__messengers .header__btn {
+.header__container .header__messengers .header__button {
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -103,7 +103,7 @@ p, h1, h2, h3, h4 {
   padding: 12px 40px 10px 40px;
   letter-spacing: 0.4px;
 }
-.header__container .header__messengers .header__btn--active {
+.header__container .header__messengers .header__button--active {
   color: #2196F3;
   border-bottom: 2px solid #2196F3;
 }
@@ -172,13 +172,13 @@ p, h1, h2, h3, h4 {
 .post .post__container .table__body .table__row .column__circle_error {
   background-color: #F44336;
 }
-.post .post__container .table__body .table__row .column__btn {
+.post .post__container .table__body .table__row .column__button {
   width: 24px;
   height: 24px;
   padding-top: 2px;
   position: relative;
 }
-.post .post__container .table__body .table__row .column__btn::after {
+.post .post__container .table__body .table__row .column__button::after {
   content: "";
   position: absolute;
   width: 48px;
@@ -189,16 +189,16 @@ p, h1, h2, h3, h4 {
   border-radius: 48px;
   transition: background-color, 0.3s ease-in-out;
 }
-.post .post__container .table__body .table__row .column__btn:hover svg {
+.post .post__container .table__body .table__row .column__button:hover svg {
   filter: invert(46%) sepia(76%) saturate(1668%) hue-rotate(184deg) brightness(97%) contrast(97%);
 }
-.post .post__container .table__body .table__row .column__btn:hover::after {
+.post .post__container .table__body .table__row .column__button:hover::after {
   background-color: rgba(33, 150, 243, 0.04);
 }
-.post .post__container .table__body .table__row .column__btn:active svg {
+.post .post__container .table__body .table__row .column__button:active svg {
   filter: invert(46%) sepia(76%) saturate(1668%) hue-rotate(184deg) brightness(97%) contrast(97%);
 }
-.post .post__container .table__body .table__row .column__btn:active::after {
+.post .post__container .table__body .table__row .column__button:active::after {
   background-color: rgba(33, 150, 243, 0.24);
 }
 .post .post__container .table__body .table__row .column_post .column__container {

@@ -88,7 +88,7 @@ p, h1, h2, h3, h4 {
 			}
 		}
 		.header__messengers {
-			.header__btn {
+			.header__button {
 				font-size: 14px;
 				font-weight: 500;
 				line-height: 24px;
@@ -97,7 +97,7 @@ p, h1, h2, h3, h4 {
 				padding: 12px 40px 10px 40px;
 				letter-spacing: $letter-spacing-04;
 			}
-			.header__btn--active {
+			.header__button--active {
 				color: $primary-main;
 				border-bottom: 2px solid $primary-main;
 			}
@@ -169,7 +169,7 @@ p, h1, h2, h3, h4 {
 								background-color: $error-main;
 							}
 						}
-						&__btn {
+						&__button {
 							width: 24px;
 							height: 24px;
 							padding-top: 2px;
